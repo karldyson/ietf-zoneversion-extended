@@ -127,7 +127,19 @@ Per [@!RFC8552], IANA is requested to add the following entries to the
 
 # Acknowledgements
 
-Many thanks to original authors of [@!RFC9660].
+Many thanks to original authors of [@!RFC9660]. And the following reviewers:
+Peter van Dijk.
 
 {backmatter}
 
+{#changelog}
+# Change History (to be removed before publication)
+
+* draft-ubbink-dnsop-backend-serial-zoneversion-option-00
+
+> Use a better name for the draft.
+> Use a different label for the backend version.
+
+* draft-ubbink-zoneversion...
+
+> Initial publication

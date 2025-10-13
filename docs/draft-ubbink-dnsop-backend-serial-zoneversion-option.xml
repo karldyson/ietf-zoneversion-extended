@@ -132,7 +132,8 @@ ZONEVERSION TYPE Values space:</t>
 </section>
 
 <section anchor="acknowledgements"><name>Acknowledgements</name>
-<t>Many thanks to original authors of <xref target="RFC9660"></xref>.</t>
+<t>Many thanks to original authors of <xref target="RFC9660"></xref>. And the following reviewers:
+Peter van Dijk.</t>
 </section>
 
 </middle>
@@ -144,6 +145,20 @@ ZONEVERSION TYPE Values space:</t>
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8552.xml"/>
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9660.xml"/>
 </references>
+
+<section anchor="changelog"><name>Change History (to be removed before publication)</name>
+
+<ul spacing="compact">
+<li>draft-ubbink-dnsop-backend-serial-zoneversion-option-00</li>
+</ul>
+<blockquote><t>Use a better name for the draft.
+Use a different label for the backend version.</t>
+</blockquote>
+<ul spacing="compact">
+<li>draft-ubbink-zoneversion...</li>
+</ul>
+<blockquote><t>Initial publication</t>
+</blockquote></section>
 
 </back>
 

@@ -4,8 +4,8 @@
 
 DNSOP                                                      S.W.J. Ubbink
 Internet-Draft                                                      SIDN
-Intended status: Standards Track                          18 August 2025
-Expires: 19 February 2026
+Intended status: Standards Track                         13 October 2025
+Expires: 16 April 2026
 
 
                  DNS Backend Serial Zone Version Option
@@ -36,7 +36,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 February 2026.
+   This Internet-Draft will expire on 16 April 2026.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Ubbink                  Expires 19 February 2026                [Page 1]
+Ubbink                    Expires 16 April 2026                 [Page 1]
 
-Internet-Draft           dns-backend-zoneversion             August 2025
+Internet-Draft           dns-backend-zoneversion            October 2025
 
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -81,6 +81,7 @@ Table of Contents
      8.2.  _backend-version Underscore Name  . . . . . . . . . . . .   4
    9.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   4
    10. Normative References  . . . . . . . . . . . . . . . . . . . .   4
+   Appendix A.  Change History (to be removed before publication)  .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
 1.  Discussion Venues
@@ -108,10 +109,9 @@ Table of Contents
 
 
 
-
-Ubbink                  Expires 19 February 2026                [Page 2]
+Ubbink                    Expires 16 April 2026                 [Page 2]
 
-Internet-Draft           dns-backend-zoneversion             August 2025
+Internet-Draft           dns-backend-zoneversion            October 2025
 
 
 3.  Terminology and Definitions
@@ -165,9 +165,9 @@ Internet-Draft           dns-backend-zoneversion             August 2025
 
 
 
-Ubbink                  Expires 19 February 2026                [Page 3]
+Ubbink                    Expires 16 April 2026                 [Page 3]
 
-Internet-Draft           dns-backend-zoneversion             August 2025
+Internet-Draft           dns-backend-zoneversion            October 2025
 
 
 7.  Security and Privacy Considerations
@@ -205,7 +205,8 @@ Internet-Draft           dns-backend-zoneversion             August 2025
 
 9.  Acknowledgements
 
-   Many thanks to original authors of [RFC9660].
+   Many thanks to original authors of [RFC9660].  And the following
+   reviewers: Peter van Dijk.
 
 10.  Normative References
 
@@ -220,10 +221,9 @@ Internet-Draft           dns-backend-zoneversion             August 2025
 
 
 
-
-Ubbink                  Expires 19 February 2026                [Page 4]
+Ubbink                    Expires 16 April 2026                 [Page 4]
 
-Internet-Draft           dns-backend-zoneversion             August 2025
+Internet-Draft           dns-backend-zoneversion            October 2025
 
 
    [RFC8552]  Crocker, D., "Scoped Interpretation of DNS Resource
@@ -235,6 +235,17 @@ Internet-Draft           dns-backend-zoneversion             August 2025
               Version (ZONEVERSION) Option", RFC 9660,
               DOI 10.17487/RFC9660, October 2024,
               <https://www.rfc-editor.org/info/rfc9660>.
+
+Appendix A.  Change History (to be removed before publication)
+
+   -  draft-ubbink-dnsop-backend-serial-zoneversion-option-00
+
+   |  Use a better name for the draft.  Use a different label for the
+   |  backend version.
+
+   -  draft-ubbink-zoneversion...
+
+   |  Initial publication
 
 Author's Address
 
@@ -266,15 +277,4 @@ Author's Address
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Ubbink                  Expires 19 February 2026                [Page 5]
+Ubbink                    Expires 16 April 2026                 [Page 5]
