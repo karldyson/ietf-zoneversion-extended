@@ -28,6 +28,6 @@ pdf: $(PDF)
 
 .PHONY: clean
 clean:
-	rm -f *.txt *.xml
+	rm -f ../docs/*.txt ../docs/*.xml ../docs/*.pdf
 
 all: txt html pdf 

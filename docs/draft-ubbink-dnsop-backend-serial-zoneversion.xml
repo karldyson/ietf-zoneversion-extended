@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- name="GENERATOR" content="github.com/mmarkdown/mmark Mmark Markdown Processor - mmark.miek.nl" -->
-<rfc version="3" ipr="trust200902" docName="draft-ubbink-dnsop-backend-serial-zoneversion-option-00" submissionType="IETF" category="std" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true">
+<rfc version="3" ipr="trust200902" docName="draft-ubbink-dnsop-backend-serial-zoneversion-00" submissionType="IETF" category="std" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true">
 
 <front>
-<title abbrev="dns-backend-zoneversion">DNS Backend Serial Zone Version Option</title><seriesInfo value="draft-ubbink-dnsop-backend-serial-zoneversion-option-00" stream="IETF" status="standard" name="Internet-Draft"></seriesInfo>
+<title abbrev="dns-backend-zoneversion">DNS Backend Serial Zone Version Option</title><seriesInfo value="draft-ubbink-dnsop-backend-serial-zoneversion-00" stream="IETF" status="standard" name="Internet-Draft"></seriesInfo>
 <author initials="S.W.J." surname="Ubbink" fullname="Stefan Ubbink"><organization>SIDN</organization><address><postal><street></street>
 </postal><email>stefan.ubbink@sidn.nl</email>
 </address></author><date/>
@@ -81,8 +81,9 @@ If there are multiple _backend-version labels at the zone apex, these
 <bcp14>MUST</bcp14> all be ignored.</t>
 </section>
 
-<section anchor="security"><name>Security and Privacy Considerations</name>
-<t>TODO</t>
+<section anchor="security"><name>Security Considerations</name>
+<t>When using the backend serial zoneversion option it will reveal a small bit of
+information of your backend to the world. This should be a consius decission.</t>
 </section>
 
 <section anchor="iana"><name>IANA Considerations</name>
@@ -149,10 +150,11 @@ Peter van Dijk.</t>
 <section anchor="changelog"><name>Change History (to be removed before publication)</name>
 
 <ul spacing="compact">
-<li>draft-ubbink-dnsop-backend-serial-zoneversion-option-00</li>
+<li>draft-ubbink-dnsop-backend-serial-zoneversion-00</li>
 </ul>
 <blockquote><t>Use a better name for the draft.
-Use a different label for the backend version.</t>
+Use a different label for the backend version.
+Add security considerations</t>
 </blockquote>
 <ul spacing="compact">
 <li>draft-ubbink-zoneversion...</li>

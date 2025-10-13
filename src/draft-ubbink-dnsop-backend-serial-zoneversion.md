@@ -7,7 +7,7 @@ workgroup = "DNSOP"
 [seriesInfo]
 status = "standard"
 name = "Internet-Draft"
-value = "draft-ubbink-dnsop-backend-serial-zoneversion-option-00"
+value = "draft-ubbink-dnsop-backend-serial-zoneversion-00"
 stream = "IETF"
 
 date = 2025-07-25T12:00:00Z
@@ -99,9 +99,10 @@ If there are multiple \_backend-version labels at the zone apex, these
 **MUST** all be ignored.
 
 
-# Security and Privacy Considerations {#security}
+# Security Considerations {#security}
 
-TODO
+When using the backend serial zoneversion option it will reveal a small bit of
+information of your backend to the world. This should be a consius decission.
 
 # IANA Considerations {#iana}
 
@@ -135,10 +136,11 @@ Peter van Dijk.
 {#changelog}
 # Change History (to be removed before publication)
 
-* draft-ubbink-dnsop-backend-serial-zoneversion-option-00
+* draft-ubbink-dnsop-backend-serial-zoneversion-00
 
 > Use a better name for the draft.
 > Use a different label for the backend version.
+> Add security considerations
 
 * draft-ubbink-zoneversion...
 

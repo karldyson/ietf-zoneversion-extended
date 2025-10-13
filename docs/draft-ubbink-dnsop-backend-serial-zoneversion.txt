@@ -9,7 +9,7 @@ Expires: 16 April 2026
 
 
                  DNS Backend Serial Zone Version Option
-        draft-ubbink-dnsop-backend-serial-zoneversion-option-00
+            draft-ubbink-dnsop-backend-serial-zoneversion-00
 
 Abstract
 
@@ -75,7 +75,7 @@ Table of Contents
    4.  Relation to the ZONEVERSION option  . . . . . . . . . . . . .   3
    5.  The backend serial in the zone  . . . . . . . . . . . . . . .   3
    6.  The backend serial ZONEVERSION type . . . . . . . . . . . . .   3
-   7.  Security and Privacy Considerations . . . . . . . . . . . . .   4
+   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
    8.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
      8.1.  ZONEVERSION TYPE value  . . . . . . . . . . . . . . . . .   4
      8.2.  _backend-version Underscore Name  . . . . . . . . . . . .   4
@@ -170,9 +170,11 @@ Ubbink                    Expires 16 April 2026                 [Page 3]
 Internet-Draft           dns-backend-zoneversion            October 2025
 
 
-7.  Security and Privacy Considerations
+7.  Security Considerations
 
-   TODO
+   When using the backend serial zoneversion option it will reveal a
+   small bit of information of your backend to the world.  This should
+   be a consius decission.
 
 8.  IANA Considerations
 
@@ -215,9 +217,7 @@ Internet-Draft           dns-backend-zoneversion            October 2025
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
 
-   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
-              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://www.rfc-editor.org/info/rfc8174>.
+
 
 
 
@@ -225,6 +225,10 @@ Ubbink                    Expires 16 April 2026                 [Page 4]
 
 Internet-Draft           dns-backend-zoneversion            October 2025
 
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/info/rfc8174>.
 
    [RFC8552]  Crocker, D., "Scoped Interpretation of DNS Resource
               Records through "Underscored" Naming of Attribute Leaves",
@@ -238,10 +242,10 @@ Internet-Draft           dns-backend-zoneversion            October 2025
 
 Appendix A.  Change History (to be removed before publication)
 
-   -  draft-ubbink-dnsop-backend-serial-zoneversion-option-00
+   -  draft-ubbink-dnsop-backend-serial-zoneversion-00
 
    |  Use a better name for the draft.  Use a different label for the
-   |  backend version.
+   |  backend version.  Add security considerations
 
    -  draft-ubbink-zoneversion...
 
@@ -252,10 +256,6 @@ Author's Address
    Stefan Ubbink
    SIDN
    Email: stefan.ubbink@sidn.nl
-
-
-
-
 
 
 
